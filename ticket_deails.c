@@ -1,7 +1,7 @@
-/**********************************************PREPROCESSORS**********************************************************/
-//Train Reservation System - BROUGHT TO YOU BY : code-projects.org
-//Working on basic structure
-//including all libraries for now
+
+
+
+
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
@@ -22,20 +22,20 @@ typedef struct{
 
 
 
-/*******************************************FUNCTION PROTOTYPE**********************************************************/
+/******************************************FUNCTION PROTOTYPE**********************************************************/
 //function prototypes to be used
-void reservation(void);							//main reservation function
+void reservation(void);							
 void viewdetails(void);							//view details of all the trains
 void cancel(void);								
 void printticket(char name[],int,int,float);	//print ticket 
 void specifictrain(int);						//print data related to specific train
-float charge(int,int);							//charge automatically w.r.t number of seats and train
+float charge(int,int);							
 void login();
 
 
 /******************************************FUNCTION DECLARATION**********************************************************/
 
-/*********************************************MAIN()*************************************************/
+
 
 void setcolor(int ForgC)
 { 
@@ -416,7 +416,7 @@ abc : do
 	while(a<=2);
 	if (a>2)
 	{
-	//	printf("\nSorry you have entered the wrong username and password for four times!!!");
+	
 		
 		getch();
 			
@@ -425,33 +425,10 @@ abc : do
 		system("cls");	
 }
 
-void cancel(void)   /* Sorry this function does not work. Coding is not completed. Codes have been removed due to some errors  */
+void cancel(void)  
 {
 
- char ch;
- //FilE *fp;
-
-}
-/*{
-	/*FILE *f,*t;
-	int i=0;
-	int trainnum;
-	t=fopen("seats_reserved.txt","w");
-	if ((f=fopen("seats_reserved.txt","r"))==NULL)
-	{
-		printf("NO RECORD ADDED.");
-		main();
-		* * * * *
-		*
-		*
-		*
-		*
-		*
-		*
-		*  /  missing codes  /
-	}
-	else*/
-/*	system("cls");
+ system("cls");
 	int trainnum;
 	printf("-----------------------\n");
 		printf("Enter the train number: \n");
@@ -461,7 +438,30 @@ void cancel(void)   /* Sorry this function does not work. Coding is not complete
 		printf("\n\nCancelled");  
 		getch();
 	}
-*/
+ 
+
+
+
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+	
+
 
 
 
